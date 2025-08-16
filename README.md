@@ -15,13 +15,13 @@ API ini mendukung operasi dasar seperti **Create, Read, Update, Delete (CRUD)**.
 
 ---
 
-📌 API Endpoints
-Method   Endpoint               Description
-GET      /api/mahasiswa         Get all mahasiswa
-GET      /api/mahasiswa/{id}    Get mahasiswa by ID
-POST     /api/mahasiswa         Create new mahasiswa
-PUT      /api/mahasiswa/{id}    Update mahasiswa by ID
-DELETE   /api/mahasiswa/{id}    Delete mahasiswa by ID
+##📌 API Endpoints
+- Method   Endpoint               Description
+- GET      /api/mahasiswa         Get all mahasiswa
+- GET      /api/mahasiswa/{id}    Get mahasiswa by ID
+- POST     /api/mahasiswa         Create new mahasiswa
+- PUT      /api/mahasiswa/{id}    Update mahasiswa by ID
+- DELETE   /api/mahasiswa/{id}    Delete mahasiswa by ID
 
 🧪 Example Request (JSON)
 ```json
@@ -31,7 +31,7 @@ DELETE   /api/mahasiswa/{id}    Delete mahasiswa by ID
   "fakultas": "Fakultas Teknik & Ilmu Komputer",
   "prodi": "Teknik Informatika"
 }
-
+```
 ---
 
 ## 🛠️ Tech Stack
