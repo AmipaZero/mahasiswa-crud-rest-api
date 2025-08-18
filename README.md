@@ -5,7 +5,7 @@ API ini mendukung operasi dasar seperti **Create, Read, Update, Delete (CRUD)**.
 
 ---
 
-## 🚀 Features
+## 🚀 Fitur
 - ✅ Tambah data mahasiswa
 - ✅ Lihat semua mahasiswa
 - ✅ Cari mahasiswa berdasarkan ID
@@ -39,6 +39,5 @@ API ini mendukung operasi dasar seperti **Create, Read, Update, Delete (CRUD)**.
 - [Spring Boot 3](https://spring.io/projects/spring-boot)
 - [Maven](https://maven.apache.org/)
 - [MySQL](https://www.mysql.com/)
-- [Lombok](https://projectlombok.org/) (optional)
 
 ---
