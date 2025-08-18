@@ -28,7 +28,7 @@ public class MahasiswaController {
             path = "/api/mahasiswas/{id}",
             produces = MediaType.APPLICATION_JSON_VALUE
     )
-    public Mahasiswa getByNim(@PathVariable long id) {
+    public Mahasiswa getById(@PathVariable long id) {
         Mahasiswa mahasiswa = service.getById(id);
         if (mahasiswa == null) {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Mahasiswa dengan NIM " + id + " tidak ditemukan");
